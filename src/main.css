@@ -113,3 +113,14 @@ p {
   box-shadow: var(--box-shadow);
   font-size: 20px;
 }
+
+.about-section {
+  padding: 60px 0;
+}
+
+.img-profile {
+  border-radius: 20px;
+  max-height: 350px;
+  margin: 20px auto;
+  display: block;
+}
