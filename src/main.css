@@ -185,7 +185,7 @@ footer {
   background: var(--secondary-color);
   padding: 30px 150px;
   border-radius: 10px;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .contact-box p {
@@ -230,6 +230,29 @@ footer .email-link:hover {
   color: var(--secondary-color);
 }
 
+.contact-form .form-label {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+}
+
+.btn-send {
+  background-color: var(--primary-color) !important;
+  color: var(--secondary-color) !important;
+  border-radius: 4px;
+  padding: 15px 30px !important;
+  box-shadow: var(--box-shadow);
+  font-size: 20px;
+  line-height: 27px;
+  transition: all 0.3s;
+}
+
+.btn-send:hover {
+  color: var(--primary-color) !important;
+  background-color: var(--secondary-color) !important;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -246,5 +269,8 @@ footer .email-link:hover {
   }
   .has-pad {
     padding: 0 0 70px;
+  }
+  .contact-box {
+    margin-top: 50px;
   }
 }
